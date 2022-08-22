@@ -1,3 +1,4 @@
+#the following script file installs jenkins plugins octopus deploy via the jenkins plugin cli, using Docker
 FROM jenkins/jenkins:lts-jdk11
 USER root
 RUN apt update && \
